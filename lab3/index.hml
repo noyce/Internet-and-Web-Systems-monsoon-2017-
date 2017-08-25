@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title> IWS Lab 3 </title>
+ 
+ <script src="shape.js"></script> 
+
+
+</head>
+
+
+<body>
+
+<div id="main"> 
+<div id="buttons">
+ <button type="button" onclick="inputCircle()">Circle</button> 
+ <button type="button" onclick="inputTriangle()">Triangle</button> 
+ <button type="button" onclick="inputSquare()">Square</button> 
+ <button type="button" onclick="inputRectangle()">Rectangle</button> 
+ <button type="button" onclick="inputHexagon()">Hexagon</button> 
+ </div>
+
+ <div id="params">
+
+ </div>
+
+ <canvas id="myCanvas" width="500" height="500" >
+
+
+</canvas> 
+
+
+
+</div>
+<div id ="final">
+<div id="result" >
+
+</div>
+
+</div>
+</body>
+
+</html>
