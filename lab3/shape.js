@@ -84,8 +84,8 @@ function triangleAreaAndPerimeter() {
 	removeCanvasAndParams();
 
 
-	var side1 = parseInt(document.getElementById("input1").value);
-	var side2 =parseInt(document.getElementById("input2").value);
+	var side1 =  3;//parseInt(document.getElementById("input1").value);
+	var side2 = parseInt(document.getElementById("input2").value);
 	var side3 = parseInt(document.getElementById("input3").value);
     
     var perimeter = (side1 + side2 + side3);
@@ -93,6 +93,7 @@ function triangleAreaAndPerimeter() {
     var area = Math.sqrt(sp * (sp - side1) * (sp - side2) * (sp - side3));
 
     //print result
+    console.log(area);
     printResult(area,perimeter);
     
 
